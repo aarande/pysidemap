@@ -1,5 +1,24 @@
-# Widgets module
+"""PySideMap Widgets Package
 
-from .gis_graphics_view import GISGraphicsView
+This package contains PySide6 widget implementations for GIS visualization.
+"""
 
-__all__ = ["GISGraphicsView"]
+# Phase 2+ - Available components
+from .gis_graphics_view import (
+    GISGraphicsView,
+    ViewState,
+    InteractionMode,
+    ViewportInfo,
+    GISViewError,
+    create_gis_view
+)
+
+__all__ = [
+    # Available in Phase 2
+    "GISGraphicsView",
+    "ViewState",
+    "InteractionMode", 
+    "ViewportInfo",
+    "GISViewError",
+    "create_gis_view"
+]
