@@ -1,0 +1,4 @@
+"""Test package initialization."""
+
+# Make test functions available for pytest discovery
+__all__ = []

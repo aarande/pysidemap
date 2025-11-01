@@ -1,0 +1,125 @@
+# Python-specific patterns
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.venv*
+virtualenv/
+env/
+.ENV
+
+# PySide6 specific
+*.ui
+*.qrc
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# GIS Data
+*.shp
+*.shx
+*.dbf
+*.prj
+*.qpj
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.gpx
+*.tif
+*.tiff
+*.geotiff
+*.asc
+*.dem
+*.bil
+*.img
+
+# Cache directories
+.cache/
+temp/
+tmp/
+.tmp/
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Wheel cache
+pip-wheel-metadata/
+
+# PEP 517/518
+build-system/
+source/
+checkout/
